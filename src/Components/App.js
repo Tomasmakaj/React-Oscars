@@ -2,6 +2,7 @@ import '../App.css';
 import { useEffect, useState } from 'react';
 import MoviePage from "./MoviePage"
 import Header from './Header';
+import Navbar from './Navbar'
 
 function App() {
   const [movies, setMovies] = useState ([])
@@ -16,6 +17,7 @@ function App() {
 
     <div className="App">
       <Header />
+      <Navbar />
       <MoviePage movies={movies} />
     </div>
 

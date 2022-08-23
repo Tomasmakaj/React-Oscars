@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default function Header() {
+function Header() {
   return (
-    <div>Header</div>
+    <div>
+      <h1>React Oscars</h1>
+
+    </div>
   )
 }
+
+export default Header

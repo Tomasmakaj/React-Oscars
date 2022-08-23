@@ -1,6 +1,7 @@
 import '../App.css';
 import { useEffect, useState } from 'react';
 import MoviePage from "./MoviePage"
+import Header from './Header';
 
 function App() {
   const [movies, setMovies] = useState ([])
@@ -14,6 +15,7 @@ function App() {
   return (
 
     <div className="App">
+      <Header />
       <MoviePage movies={movies} />
     </div>
 

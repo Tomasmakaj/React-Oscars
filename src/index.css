@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
   margin: 0;
@@ -9,45 +9,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+	background-color: rgb(26, 113, 140);
+}
+
+
+h1 {
+	color: white;
 } */
 
-
-
-/* body {
-	background: #141414;
-	color: #ffffff;
-}
-
-.movie-app > .row {
-	overflow-x: auto;
-	flex-wrap: nowrap;
-}
-
-.image-container {
-	position: relative;
-	transition: transform 0.2s;
-}
-
-.image-container:hover {
-	cursor: pointer;
-	transform: scale(1.1);
-}
-
-.image-container:hover .overlay {
-	opacity: 1;
-}
-
-.overlay {
-	position: absolute;
-	background: rgba(0, 0, 0, 0.8);
-	width: 100%;
-	transition: 0.5s ease;
-	opacity: 0;
-	bottom: 0;
-	font-size: 20px;
-	padding: 20px;
-	text-align: center;
-} */

@@ -6,8 +6,7 @@ function MoviePage({ movies }) {
   const renderMovies = movies.map(movie => <MovieCard
     key={movie.id}
     movie={movie}
-  
-  />)
+    />)
   
   return (
     <div>{renderMovies}</div>

@@ -1,22 +1,32 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-export default function MovieCard({movie}) {
-  const {id, image, nominations, title,} = movie
+function MovieCard({movie}) {
+  const {id, image, nominations, title, description} = movie;
+  const [isFront, setIsFront] = useState(true);
+
+  function handleClick() {
+    setIsFront((isFront) => !isFront)
+  }
+
   return (
-    <div>
-    <div>
-      <div id={id} className="image">
-        <img src={image} alt={title} height='350px'/>
-      </div>
+    <div id={id} style={{border: "solid 1px black"}}>
       <div className="content">
-        <div className="header">{title}</div>
+        <h3 className="header">{title}</h3>
+      </div>
+      <div onClick={handleClick} className="image">
+        {isFront ? 
+          <img src={image} alt={title} height='350px'/> :
+          <div>{description}</div>
+        }
       </div>
       <div className="extra content">
         <span>
-          <i className="icon heartbeat red" />
+          <button>♡</button>
+          <button>Add to Watch List</button>
         </span>
       </div>
     </div>
-  </div>
   )
-}
+};
+
+export default MovieCard;

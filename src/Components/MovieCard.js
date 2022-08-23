@@ -1,11 +1,13 @@
 import React, {useState} from 'react'
 import Card from 'react-bootstrap/Card'
+import Popover from 'react-bootstrap/Popover';
 
 function MovieCard({movie}) {
   const {id, image, title, description, wins, nominations} = movie;
   const [isFront, setIsFront] = useState(true);
   const [isLiked, setIsLiked] = useState(false);
   const [isWatched, setIsWatched] = useState(false)
+  
   function handleClick() {
     setIsFront((isFront) => !isFront)
   };
@@ -23,7 +25,7 @@ function MovieCard({movie}) {
       <div onClick={handleClick} className="image">
         {isFront ?
           <img src={image} alt={title} height='350px'/> :
-          <div>{description} <br></br><br></br> {wins} wins | {nominations} nominations</div> 
+          <Popover>{description} <br></br><br></br> {wins} wins | {nominations} nominations</Popover> 
         }
       </div>
       <div className="extra content">

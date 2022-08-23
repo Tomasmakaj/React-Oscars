@@ -1,7 +1,17 @@
 import React from 'react'
+import MovieCard from "./MovieCard"
 
-export default function MoviePage() {
+
+function MoviePage({ movies }) {
+  const renderMovies = movies.map(movie => <MovieCard
+    key={movie.id}
+    movie={movie}
+  
+  />)
+  
   return (
-    <div>MoviePage</div>
+    <div>{renderMovies}</div>
   )
 }
+
+export default MoviePage

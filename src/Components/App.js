@@ -1,18 +1,22 @@
 import '../App.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import MoviePage from "./MoviePage"
 
 function App() {
+  const [movies, setMovies] = useState ([])
 
   useEffect(() => {
-    fetch("http://localhost:3000/nominees")
+    fetch("http://localhost:3000/movies")
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => setMovies(data))
   }, [])
 
   return (
 
     <div className="App">
+      <MoviePage movies={movies} />
     </div>
+
   );
 }
 

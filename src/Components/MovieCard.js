@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
+import Card from 'react-bootstrap/Card'
 
 function MovieCard({movie}) {
-  const {id, image, nominations, title, description} = movie;
+  const {id, image, title, description, wins, nominations} = movie;
   const [isFront, setIsFront] = useState(true);
   const [isLiked, setIsLiked] = useState(false);
   const [isWatched, setIsWatched] = useState(false)
@@ -15,14 +16,14 @@ function MovieCard({movie}) {
     setIsWatched((isWatched) => !isWatched)
   };
   return (
-    <div id={id} style={{border: "solid 1px black"}}>
-      <div className="content">
-        <h3 className="header">{title}</h3>
-      </div>
+    <Card key={id} style={{border: "solid 1px black"}}>
+      <Card.Title className="header">
+        <h3>{title}</h3>
+      </Card.Title>
       <div onClick={handleClick} className="image">
         {isFront ?
           <img src={image} alt={title} height='350px'/> :
-          <div>{description}</div>
+          <div>{description} <br></br><br></br> {wins} wins | {nominations} nominations</div> 
         }
       </div>
       <div className="extra content">
@@ -35,7 +36,7 @@ function MovieCard({movie}) {
           </button>
         </span>
       </div>
-    </div>
+    </Card>
   )
 };
 export default MovieCard;

@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
-import Card from 'react-bootstrap/Card'
+import React, {useState} from 'react';
+import Card from 'react-bootstrap/Card';
 import Popover from 'react-bootstrap/Popover';
+//import Overlay from 'react-bootstrap/Overlay'
 
 function MovieCard({movie}) {
   const {id, image, title, description, wins, nominations} = movie;

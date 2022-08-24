@@ -1,8 +1,9 @@
 import React from 'react'
 import './Navbar.css'
-
+import { useNavigate } from 'react-router-dom'
 export default function Navbar( {handleFilter} ) {
-
+  
+  const navigate = useNavigate()
 
   return (
     <div className="topnav">
@@ -11,8 +12,8 @@ export default function Navbar( {handleFilter} ) {
       <a onClick={handleFilter} href="#2019" name="2019">2019</a>
       <a onClick={handleFilter} href="#2018" name="2018">2018</a>
       <a onClick={handleFilter} href="#2017" name="2017">2017</a>
-      <button>Favorites</button>
-      <button>Watch List</button>
+      <button onClick={()=>navigate("/favorites")}>Favorites</button>
+      <button onClick={()=>navigate("/watchlist")}>Watch List</button>
     </div>
   )
 }

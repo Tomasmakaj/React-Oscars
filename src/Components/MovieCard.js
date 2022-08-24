@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import Card from 'react-bootstrap/Card';
 import Popover from 'react-bootstrap/Popover';
 //import Overlay from 'react-bootstrap/Overlay'
@@ -6,7 +6,7 @@ import Popover from 'react-bootstrap/Popover';
 function MovieCard({movie}) {
   const {id, image, title, description, wins, nominations} = movie;
   const [isFront, setIsFront] = useState(true);
-  const [isLiked, setIsLiked] = useState(false);
+  const [isLiked, setIsLiked] = useState(movie.liked);
   const [isWatched, setIsWatched] = useState(false)
   
   function handleClick() {
@@ -14,7 +14,20 @@ function MovieCard({movie}) {
   };
   
   function handleLikeClick() {
-    setIsLiked((isLiked) => !isLiked)
+    setIsLiked((isLiked) => {
+      fetch(`http://localhost:3000/movies/${id}`, {
+        method: "PUT",
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          ...movie,
+          liked: !isLiked,
+        })
+      })
+      .then(res => res.json())
+      .then(data => setIsLiked(data.liked))
+    })
   };
   
   function handleWatchedClick() {

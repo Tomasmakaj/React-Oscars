@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 
-export default function Navbar( {handleFilter} ) {
+export default function Navbar( {handleFilter, handleFavorites} ) {
 
 
   return (
@@ -11,7 +11,7 @@ export default function Navbar( {handleFilter} ) {
       <a onClick={handleFilter} href="#2019" name="2019">2019</a>
       <a onClick={handleFilter} href="#2018" name="2018">2018</a>
       <a onClick={handleFilter} href="#2017" name="2017">2017</a>
-      <button>Favorites</button>
+      <button onClick={handleFavorites}>Favorites</button>
       <button>Watch List</button>
     </div>
   )

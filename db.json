@@ -41,7 +41,7 @@
       "image": "https://m.media-amazon.com/images/M/MV5BY2NkNDdmZTUtYWQ2MC00MjUyLTk1MGMtNWZiZjI3ZWMzNDYwXkEyXkFqcGdeQXVyNTY4ODAxODI@._V1_.jpg",
       "wins": "1",
       "nominations": "4",
-      "liked": false,
+      "liked": true,
       "inWatchList": false
     },
     {
@@ -52,7 +52,7 @@
       "image": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
       "wins": "6",
       "nominations": "10",
-      "liked": false,
+      "liked": true,
       "inWatchList": false
     },
     {
@@ -96,7 +96,7 @@
       "image": "https://m.media-amazon.com/images/M/MV5BZGRhYjE2NWUtN2FkNy00NGI3LTkxYWMtMDk4Yjg5ZjI3MWI2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
       "wins": "1",
       "nominations": "12",
-      "liked": false,
+      "liked": true,
       "inWatchList": false
     },
     {

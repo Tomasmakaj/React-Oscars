@@ -28,7 +28,6 @@ function MovieCard({movie}) {
       .then(res => res.json())
       .then(data => setIsLiked(data.liked))
     })
-
   };
   
   function handleWatchedClick() {

@@ -6,13 +6,17 @@ import Navbar from './Navbar'
 
 function App() {
   const [movies, setMovies] = useState ([])
-  // const [filter, setFilter] = useState ([])
+
 
   useEffect(() => {
     fetch("http://localhost:3000/movies")
     .then(res => res.json())
     .then(data => setMovies(data))
   }, [])
+
+
+
+
 
   return (
 

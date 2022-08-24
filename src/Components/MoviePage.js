@@ -8,11 +8,11 @@ import Col from 'react-bootstrap/Col';
 function MoviePage({ movies }) {
   const renderMovies = movies.map(movie => 
   <Col sm={2}md={4}>
-  <MovieCard
-    key={movie.id}
-    movie={movie}
+    <MovieCard
+      key={movie.id}
+      movie={movie}
     />
-    </Col>
+  </Col>
   )
   
   return (

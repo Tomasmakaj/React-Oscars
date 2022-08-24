@@ -22,7 +22,9 @@ function Favorites() {
         {favorites.map(fave=>(
         <Container>
             <Row>
-                <MovieCard  movie={fave} key={fave.id} />
+                <Col sm="2" md="4">
+                    <MovieCard  movie={fave} key={fave.id} />
+                </Col>
             </Row>
         </Container>
         ))}

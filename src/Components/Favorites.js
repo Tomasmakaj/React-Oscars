@@ -3,6 +3,9 @@ import MovieCard from './MovieCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Collapse } from 'bootstrap';
+// import Stack from 'react-bootstrap/Stack';
+
 
 function Favorites() {
     const [favorites, setFavorites] = useState ([]);
@@ -19,15 +22,13 @@ function Favorites() {
 
   return (
     <div>
-        {favorites.map(fave=>(
         <Container>
-            <Row>
-                <Col sm="2" md="4">
-                    <MovieCard  movie={fave} key={fave.id} />
-                </Col>
+            <Row sm={2} md={4}>
+                    {favorites.map(fave=>(
+                        <MovieCard  movie={fave} key={fave.id} />
+                    ))}
             </Row>
         </Container>
-        ))}
     </div>
   )
 };

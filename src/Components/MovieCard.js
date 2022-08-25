@@ -1,7 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Card from 'react-bootstrap/Card';
-import Popover from 'react-bootstrap/Popover';
-//import Overlay from 'react-bootstrap/Overlay'
+// import Popover from 'react-bootstrap/Popover';
+// import Overlay from 'react-bootstrap/Overlay';
+// import Collapse from 'react-bootstrap/Collapse';
 
 function MovieCard({movie}) {
   const {id, image, title, description, wins, nominations} = movie;
@@ -49,14 +50,14 @@ function MovieCard({movie}) {
   };
   
   return (
-    <Card key={id} style={{border: "solid 1px black"}}>
+    <Card key={id} style={{border: "solid 1px black"}} >
       <Card.Title className="header">
         <h3>{title}</h3>
       </Card.Title>
-      <div onClick={handleClick} className="image">
+      <div onClick={handleClick} className="image" style={{cursor:'pointer'}}>
         {isFront ?
           <img src={image} alt={title} height='350px'/> :
-          <Popover>{description} <br></br><br></br> {wins} wins | {nominations} nominations</Popover> 
+          <div>{description} <br></br><br></br> {wins} wins | {nominations} nominations</div> 
         }
       </div>
       <div className="extra content">

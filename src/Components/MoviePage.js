@@ -18,7 +18,7 @@ function MoviePage({ movies }) {
   return (
     <div>
       <Container>
-        <Row>
+        <Row sm={2} md={4} >
           {renderMovies}
         </Row>
       </Container>

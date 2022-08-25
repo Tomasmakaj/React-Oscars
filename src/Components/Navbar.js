@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import { useNavigate, NavLink } from "react-router-dom"
+import Button from 'react-bootstrap/Button';
 
 export default function Navbar({ handleFilter }) {
   const [navStyle, setNavStyle] = useState({
@@ -63,15 +64,15 @@ export default function Navbar({ handleFilter }) {
       }} to="/#2015" name="2015">2015</NavLink>
       
       <div className="buttons">
-        <button onClick={() => {
+        <Button variant="outline-secondary" onClick={() => {
         setNavStyle({})
           navigate("/favorites")
         
-        }}>Favorites</button>
-        <button onClick={() => {
+        }}>Favorites</Button>{'  '}
+        <Button variant="outline-secondary" onClick={() => {
           setNavStyle({})
           navigate("/watchlist")
-        }}>Watch List</button>
+        }}>Watch List</Button>
       </div>
     </div>
   )

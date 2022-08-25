@@ -141,7 +141,7 @@
       "wins": "2",
       "nominations": "10",
       "liked": false,
-      "inWatchList": false
+      "inWatchList": true
     },
     {
       "id": 14,
@@ -174,7 +174,7 @@
       "wins": "1",
       "nominations": "5",
       "liked": false,
-      "inWatchList": true
+      "inWatchList": false
     },
     {
       "id": 17,
@@ -196,7 +196,7 @@
       "wins": "0",
       "nominations": "6",
       "liked": false,
-      "inWatchList": true
+      "inWatchList": false
     },
     {
       "id": 19,

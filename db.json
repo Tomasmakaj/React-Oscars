@@ -75,7 +75,7 @@
       "wins": "0",
       "nominations": "3",
       "liked": false,
-      "inWatchList": false
+      "inWatchList": true
     },
     {
       "id": 8,
@@ -86,7 +86,7 @@
       "wins": "0",
       "nominations": "4",
       "liked": false,
-      "inWatchList": false
+      "inWatchList": true
     },
     {
       "id": 9,
@@ -174,7 +174,7 @@
       "wins": "1",
       "nominations": "5",
       "liked": false,
-      "inWatchList": false
+      "inWatchList": true
     },
     {
       "id": 17,
@@ -196,7 +196,7 @@
       "wins": "0",
       "nominations": "6",
       "liked": false,
-      "inWatchList": false
+      "inWatchList": true
     },
     {
       "id": 19,
@@ -229,7 +229,7 @@
       "wins": "1",
       "nominations": "6",
       "liked": false,
-      "inWatchList": false
+      "inWatchList": true
     },
     {
       "id": 22,
@@ -317,7 +317,7 @@
       "wins": "1",
       "nominations": "6",
       "liked": false,
-      "inWatchList": false
+      "inWatchList": true
     },
     {
       "id": 30,
@@ -383,7 +383,7 @@
       "wins": "1",
       "nominations": "8",
       "liked": false,
-      "inWatchList": false
+      "inWatchList": true
     },
     {
       "id": 36,
@@ -405,7 +405,7 @@
       "wins": "2",
       "nominations": "6",
       "liked": false,
-      "inWatchList": false
+      "inWatchList": true
     },
     {
       "id": 38,

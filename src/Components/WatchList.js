@@ -19,13 +19,13 @@ function WatchList() {
 
   return (
     <div>
-        {watched.map(watch=>(
         <Container>
-            <Row>
+            <Row sm={2} md={4}>
+              {watched.map(watch=>(
                 <MovieCard movie={watch} key={watch.id} />
+              ))}
             </Row>
         </Container>
-        ))}
       </div>
   )
 }

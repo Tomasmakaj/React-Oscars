@@ -15,19 +15,29 @@
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .topnav button:hover {
     background-color: #ddd;
     color: black;
   }
   
   /* Style the "active" element to highlight the current page */
-  .topnav a.active {
-        background-color: #ddd;
+  .topnav active {
+    background-color: #ddd;
     color: black;
   }
+
+  .buttons {
+    text-align: right;
+    padding: 6px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 17px;
+  } 
   
   /* Style the search box inside the navigation bar */
-  .topnav button[type=text] {
+  .topnav buttons[type=text] {
+    text-align: right;
     float: right;
     padding: 6px;
     border: none;

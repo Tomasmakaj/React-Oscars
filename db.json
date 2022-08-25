@@ -483,6 +483,193 @@
       "nominations": "7",
       "liked": false,
       "inWatchList": false
+    },
+    {
+      "id": 45,
+      "year": "2016",
+      "title": "Arrival",
+      "description": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_.jpg",
+      "wins": "1",
+      "nominations": "8",
+      "liked": true,
+      "inWatchList": false
+    },
+    {
+      "id": 46,
+      "year": "2016",
+      "title": "Fences",
+      "description": "A working-class African-American father tries to raise his family in the 1950s, while coming to terms with the events of his life.",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTg0Nzc1NjA0MV5BMl5BanBnXkFtZTgwNTcyNDQ0MDI@._V1_.jpg",
+      "wins": "1",
+      "nominations": "4",
+      "liked": false,
+      "inWatchList": true
+    },
+    {
+      "id": 47,
+      "year": "2016",
+      "title": "Hacksaw Ridge",
+      "description": "World War II American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first man in American history to receive the Medal of Honor without firing a shot.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_.jpg",
+      "wins": "2",
+      "nominations": "6",
+      "liked": false,
+      "inWatchList": false
+    },
+    {
+      "id": 48,
+      "year": "2016",
+      "title": "Hell or High Water",
+      "description": "A divorced father and his ex-con older brother resort to a desperate scheme in order to save their family's ranch in West Texas.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTg4NDA1OTA5NF5BMl5BanBnXkFtZTgwMDQ2MDM5ODE@._V1_.jpg",
+      "wins": "0",
+      "nominations": "4",
+      "liked": false,
+      "inWatchList": false
+    },
+    {
+      "id": 49,
+      "year": "2016",
+      "title": "Hidden Figures",
+      "description": "The story of a team of female African-American mathematicians who served a vital role in NASA during the early years of the U.S. space program.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzg2Mzg4YmUtNDdkNy00NWY1LWE3NmEtZWMwNGNlMzE5YzU3XkEyXkFqcGdeQXVyMjA5MTIzMjQ@._V1_.jpg",
+      "wins": "0",
+      "nominations": "3",
+      "liked": false,
+      "inWatchList": false
+    },
+    {
+      "id": 50,
+      "year": "2016",
+      "title": "La La Land",
+      "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2VlN2VlNDQtOGRhOC00YjM2LThjMmUtZGVkZDIwYmRjM2VkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzI3NjY2ODc@._V1_FMjpg_UX1000_.jpg",
+      "wins": "6",
+      "nominations": "14",
+      "liked": false,
+      "inWatchList": false
+    },
+    {
+      "id": 51,
+      "year": "2016",
+      "title": "Lion",
+      "description": "A five-year-old Indian boy is adopted by an Australian couple after getting lost hundreds of kilometers from home. 25 years later, he sets out to find his lost family.",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2NkYjg1ZDktMWM3Ni00MzAyLWEzMGQtM2EyN2RlYmViNzkzXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+      "wins": "0",
+      "nominations": "6",
+      "liked": false,
+      "inWatchList": true
+    },
+    {
+      "id": 52,
+      "year": "2016",
+      "title": "Manchester by the Sea",
+      "description": "A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTYxMjk0NDg4Ml5BMl5BanBnXkFtZTgwODcyNjA5OTE@._V1_.jpg",
+      "wins": "2",
+      "nominations": "6",
+      "liked": false,
+      "inWatchList": false
+    },
+    {
+      "id": 53,
+      "year": "2016",
+      "title": "Moonlight",
+      "description": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood. 🏆BEST PICTURE WINNER🏆",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_.jpg",
+      "wins": "3",
+      "nominations": "8",
+      "liked": true,
+      "inWatchList": false
+    },
+    {
+      "id": 54,
+      "year": "2015",
+      "title": "The Big Short",
+      "description": "In 2006-2007 a group of investors bet against the US mortgage market. In their research, they discover how flawed and corrupt the market is.",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
+      "wins": "1",
+      "nominations": "5",
+      "liked": false,
+      "inWatchList": true
+    },
+    {
+      "id": 55,
+      "year": "2015",
+      "title": "Bridge of Spies",
+      "description": "During the Cold War, an American lawyer is recruited to defend an arrested Soviet spy in court, and then help the CIA facilitate an exchange of the spy for the Soviet captured American U2 spy plane pilot, Francis Gary Powers.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjIxOTI0MjU5NV5BMl5BanBnXkFtZTgwNzM4OTk4NTE@._V1_.jpg",
+      "wins": "1",
+      "nominations": "6",
+      "liked": false,
+      "inWatchList": true
+    },
+    {
+      "id": 56,
+      "year": "2015",
+      "title": "Brooklyn",
+      "description": "An Irish immigrant lands in 1950s Brooklyn, where she quickly falls into a romance with a local. When her past catches up with her, however, she must choose between two countries and the lives that exist within.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzE4MDk5NzEyOV5BMl5BanBnXkFtZTgwNDM4NDA3NjE@._V1_.jpg",
+      "wins": "0",
+      "nominations": "3",
+      "liked": false,
+      "inWatchList": false
+    },
+    {
+      "id": 57,
+      "year": "2015",
+      "title": "Mad Max: Fury Road",
+      "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "wins": "6",
+      "nominations": "10",
+      "liked": true,
+      "inWatchList": false
+    },
+    {
+      "id": 58,
+      "year": "2015",
+      "title": "The Martian",
+      "description": "An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive and can survive until a potential rescue.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_FMjpg_UX1000_.jpg",
+      "wins": "0",
+      "nominations": "7",
+      "liked": false,
+      "inWatchList": false
+    },
+    {
+      "id": 59,
+      "year": "2015",
+      "title": "The Revenant",
+      "description": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDE5OWMzM2QtOTU2ZS00NzAyLWI2MDEtOTRlYjIxZGM0OWRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      "wins": "3",
+      "nominations": "12",
+      "liked": false,
+      "inWatchList": true
+    },
+    {
+      "id": 60,
+      "year": "2015",
+      "title": "Room",
+      "description": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjE4NzgzNzEwMl5BMl5BanBnXkFtZTgwMTMzMDE0NjE@._V1_FMjpg_UX1000_.jpg",
+      "wins": "1",
+      "nominations": "4",
+      "liked": false,
+      "inWatchList": true
+    },
+    {
+      "id": 61,
+      "year": "2015",
+      "title": "Spotlight",
+      "description": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core. 🏆BEST PICTURE WINNER🏆",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_FMjpg_UX1000_.jpg",
+      "wins": "2",
+      "nominations": "6",
+      "liked": true,
+      "inWatchList": false
     }
   ]
 }

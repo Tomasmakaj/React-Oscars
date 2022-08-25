@@ -41,6 +41,8 @@
 .header {
   text-align: center;
 }
+
 .toBold{
   font-weight: bold;
+  background-color: rgb(188, 187, 187);
 }

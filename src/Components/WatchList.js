@@ -18,7 +18,8 @@ function WatchList() {
   }, []);
 
   return (
-    <div>
+    <div className="header">
+      <h2>My Watch List</h2>
         <Container>
             <Row sm={2} md={4}>
               {watched.map(watch=>(

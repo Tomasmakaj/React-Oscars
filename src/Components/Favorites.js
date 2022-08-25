@@ -21,7 +21,8 @@ function Favorites() {
     }, []);
 
   return (
-    <div>
+    <div className="header">
+        <h2>My Favorites</h2>
         <Container>
             <Row sm={2} md={4}>
                     {favorites.map(fave=>(

@@ -2,10 +2,6 @@ The React Oscars
 
 Project goal: Create a Movie App with content displayed from the db.json we created
 
-Trello Work flow
-
-![Screen Shot 2022-08-26 at 8 48 01 AM](https://user-images.githubusercontent.com/108154215/186906833-775f8a6a-3c5a-4867-abf6-f46040441467.png)
-
 
 Figma Design
 

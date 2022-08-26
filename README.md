@@ -1,6 +1,7 @@
 The React Oscars
 
-Project goal: Create a Movie App with content displayed from the db.json we created
+
+Create a Movie App that is an Oscars Best Picture nominees database showing the most recent years with content displayed from the db.json we created. Users can view the nominees and relevant info from 2015-2021, like their favorites and have them added to the Favorites tab, and add movies to their Watch List.
 
 
 Figma Design

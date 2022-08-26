@@ -65,9 +65,8 @@ export default function Navbar({ handleFilter }) {
       
       <div className="buttons">
         <Button variant="outline-secondary" onClick={() => {
-        setNavStyle({})
+          setNavStyle({})
           navigate("/favorites")
-        
         }}>Favorites</Button>{'  '}
         <Button variant="outline-secondary" onClick={() => {
           setNavStyle({})

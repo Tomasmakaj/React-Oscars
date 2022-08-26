@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import MovieCard from './MovieCard';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+//import Col from 'react-bootstrap/Col';
 
 function WatchList() {
   const [watched, setWatched] = useState ([])

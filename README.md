@@ -9,7 +9,8 @@ Trello Work flow
 
 Figma Design
 
-![Screen Shot 2022-08-26 at 8 55 41 AM](https://user-images.githubusercontent.com/108154215/186909223-224dc8e9-b8cb-496f-a8c9-7ecce982b5af.png)
+![Screen Shot 2022-08-26 at 9 02 19 AM](https://user-images.githubusercontent.com/108154215/186909488-4b745acb-b694-4e2e-8063-3cbc61b59f1d.png)
+
 
 
 Take a Look at our db.json

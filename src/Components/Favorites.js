@@ -1,34 +1,31 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import MovieCard from './MovieCard';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-//import Col from 'react-bootstrap/Col';
 
 function Favorites() {
-    const [favorites, setFavorites] = useState ([]);
+    const [favorites, setFavorites] = useState([]);
 
-    useEffect(()=>{
+    useEffect(() => {
         fetch('http://localhost:3000/movies')
-        .then(res=>res.json())
-        .then(data=>{
-            setFavorites(data.filter(favorite => {
-            return favorite.liked
-            }))
-        })
+            .then(res => res.json())
+            .then(data => {
+                setFavorites(data.filter(favorite => {
+                    return favorite.liked
+                }))
+            })
     }, []);
 
-  return (
-    <div className="header">
-        <h2>My Favorites</h2>
-        <Container>
-            <Row sm={2} md={4}>
-                    {favorites.map(fave=>(
-                        <MovieCard  movie={fave} key={fave.id} />
+    return (
+        <div className="header">
+            <h2>My Favorites</h2>
+                <div style={{ display: "flex", width: "100vw", alignItems: "center", justifyContent: "center" }}>
+                <div style={{ display: "flex", flexWrap: "wrap", width: "80vw", justifyContent: "center", alignContent: "center", gap: "2rem" }}>
+                    {favorites.map(fave => (
+                        <MovieCard movie={fave} key={fave.id} />
                     ))}
-            </Row>
-        </Container>
-    </div>
-  )
+                </div>
+            </div>
+        </div>
+    )
 };
 
 export default Favorites;

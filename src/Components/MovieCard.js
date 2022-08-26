@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 function MovieCard({movie}) {
   const {id, image, title, description, wins, nominations} = movie;
@@ -47,24 +48,24 @@ function MovieCard({movie}) {
   };
   
   return (
-    <Card key={id} style={{border: "solid 1px black"}} >
+    <Card key={id} className="custom-class" style={{border: "solid 2px white",padding:"2rem", minWidth:"200px"}} >
       <Card.Title className="header">
         <h3>{title}</h3>
       </Card.Title>
       <div onClick={handleClick} className="image" style={{cursor:'pointer'}}>
         {isFront ?
           <img src={image} alt={title} height='350px'/> :
-          <div>{description} <br></br><br></br> {wins} wins | {nominations} nominations</div> 
+          <div className="info">{description} <br></br><br></br> {wins} wins | {nominations} nominations</div> 
         }
       </div>
-      <div className="extra content">
+      <div className="extra-content">
         <span>
-          <button onClick={handleLikeClick}>
+          <Button onClick={handleLikeClick} variant="outline-light">
             {isLiked ? "❤️" : "♡"}
-          </button>
-          <button onClick={handleWatchedClick}>
+          </Button> {' '}
+          <Button onClick={handleWatchedClick} variant="outline-light">
             {isWatched ? "In Watch List" : "Add to Watch List"}
-          </button>
+          </Button>
         </span>
       </div>
     </Card>

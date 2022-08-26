@@ -29,7 +29,6 @@ function App() {
     <>
       <Header />
       <Navbar handleFilter={handleFilter} />
-      <br></br>
       <Routes>
         <Route path="/" element={
           <div className="App">

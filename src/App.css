@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: black;
+  background-color: white
 }
 
 .App-logo {
@@ -67,5 +68,3 @@
 .info {
   color: white
 }
-
-

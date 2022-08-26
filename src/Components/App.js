@@ -1,3 +1,5 @@
+
+
 import '../App.css';
 import { useEffect, useState } from 'react';
 import MoviePage from "./MoviePage"
@@ -9,21 +11,13 @@ import { Routes, Route } from "react-router-dom"
 
 function App() {
   const [movies, setMovies] = useState ([])
-
   const [filter, setFilter] = useState("2021")
-
 
   useEffect(() => {
     fetch("http://localhost:3000/movies")
     .then(res => res.json())
     .then(data => setMovies(data))
   }, []);
-
-
-
-
-
-  return (
 
   const filteredMovies = movies.filter(movie => {
     return movie.year === filter

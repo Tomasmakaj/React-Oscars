@@ -1,3 +1,5 @@
+lines (14 sloc)  407 Bytes
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -13,4 +15,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
-

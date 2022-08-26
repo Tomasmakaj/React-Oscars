@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: white;
+  background-color: black;
 }
 
 .App-logo {
@@ -38,6 +38,11 @@
   }
 }
 
+.react-oscars-text{
+  margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
 .main-header {
   text-align: center;
   background-color: black;
@@ -46,9 +51,21 @@
 
 .header {
   text-align: center;
+  color: white;
+  background-color: black;
 }
 
 .toBold{
   font-weight: bold;
   background-color: rgb(188, 187, 187);
 }
+
+.card.custom-class {
+  background-color: black;
+}
+
+.info {
+  color: white
+}
+
+

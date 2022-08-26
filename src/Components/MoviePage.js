@@ -1,26 +1,19 @@
 import React from 'react'
 import MovieCard from "./MovieCard"
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 function MoviePage({ movies }) {
   const renderMovies = movies.map(movie => 
-    <Col sm={2}md={4}>
       <MovieCard
         movie={movie}
         key={movie.id}
       />
-    </Col>
   )
   
   return (
-    <div>
-      <Container>
-        <Row sm={2} md={4} >
+    <div style={{display:"flex",width:"100vw",alignItems:"center",justifyContent:"center"}}>
+        <div style={{display:"flex",flexWrap:"wrap",width:"80vw",justifyContent:"center",alignContent:"center",gap:"2rem"}}>
           {renderMovies}
-        </Row>
-      </Container>
+        </div>
     </div>
   )
 }

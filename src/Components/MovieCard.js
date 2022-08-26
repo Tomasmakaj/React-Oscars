@@ -48,7 +48,7 @@ function MovieCard({movie}) {
   };
   
   return (
-    <Card key={id} className="custom-class" style={{border: "solid 2px white",padding:"2rem", minWidth:"200px"}} >
+    <Card key={id} className="custom-class" style={{border: "solid 2px white",padding:"2rem", minWidth:"400px",width:"400px"}} >
       <Card.Title className="header">
         <h3>{title}</h3>
       </Card.Title>

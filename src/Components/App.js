@@ -27,7 +27,7 @@ function App() {
 
   const filteredMovies = movies.filter(movie => {
     return movie.year === filter
-  })
+  });
 
   function handleFilter(e) {
     setFilter(e.target.name)

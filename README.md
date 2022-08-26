@@ -27,6 +27,9 @@ PUTS will be summarized into a single movie card with an image. The following el
 <img width="629" alt="Screen Shot 2022-08-26 at 8 57 58 AM" src="https://user-images.githubusercontent.com/108154215/186908839-26d9ef9c-1544-440e-b00f-21bbdcc1e610.png">
 
 
+
+We linked both our Figma wirefram & Trello to the bottom
+
 Figma wireframe https://www.figma.com/file/tUq2Q3eiiNR2Hx0rBJINaS/React-Oscars?node-id=0%3A1
 
 Trello https://trello.com/b/1sN8tIQe/react-oscars

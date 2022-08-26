@@ -1,6 +1,6 @@
 The React Oscars
 
-Project goal: create a Movie App with content displayed from the db.json we created
+Project goal: Create a Movie App with content displayed from the db.json we created
 
 Trello Work flow
 

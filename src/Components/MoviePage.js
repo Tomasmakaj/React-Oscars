@@ -9,8 +9,8 @@ function MoviePage({ movies }) {
   const renderMovies = movies.map(movie => 
   <Col sm={2}md={4}>
     <MovieCard
-      key={movie.id}
       movie={movie}
+      key={movie.id}
     />
   </Col>
   )
@@ -18,7 +18,7 @@ function MoviePage({ movies }) {
   return (
     <div>
       <Container>
-        <Row>
+        <Row sm={2} md={4} >
           {renderMovies}
         </Row>
       </Container>
